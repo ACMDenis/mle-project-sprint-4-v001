@@ -63,8 +63,11 @@ jupyter lab --ip=0.0.0.0 --no-browser
 
 Код сервиса рекомендаций находится в файле `recommendations_service.py`.
 
-DATA_DIR=data uvicorn recommendations_service:app --host 0.0.0.0 --port 8000
+Запустите в терминале
 
+```
+DATA_DIR=data uvicorn recommendations_service:app --host 0.0.0.0 --port 8000
+```
 # Инструкции для тестирования сервиса
 
 Код для тестирования сервиса находится в файле `test_service.py`.
