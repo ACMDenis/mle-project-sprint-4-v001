@@ -70,3 +70,4 @@ jupyter lab --ip=0.0.0.0 --no-browser
 Код для тестирования сервиса находится в файле `test_service.py`.
 
 <python test_service.py>
+тест 
